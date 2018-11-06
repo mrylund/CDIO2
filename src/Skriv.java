@@ -45,7 +45,7 @@ public class Skriv {
 
     public void regler(){
         String file1 = "lang/regler_DK.txt";
-        String file2 = "regler_EN.txt";
+        String file2 = "regler_ENG.txt";
         String currentLine = "";
 
         rules = input.nextLine();
