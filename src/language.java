@@ -5,10 +5,13 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class language {
-    private HashMap<String, String> langs = new HashMap<String, String>;
+    // Der defineres et nyt Hashmap hvor vi vil indsætte strings.
+    private HashMap<String, String> langs = new HashMap<String, String>();
     public language() {
+        // Filen bliver indlæst
         String filnavn = "lang/Dansk.txt";
         try {
+            // Der loopes gennem linjerne i language filen og tilføjer language strings til HashMappet.
             BufferedReader reader = new BufferedReader(new FileReader(filnavn));
             String lines;
             while ((lines = reader.readLine()) != null) {
@@ -21,5 +24,10 @@ public class language {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    // Get Metode til at få en language string ud fra en key.
+    public String get(String key) {
+        return langs.get(key);
     }
 }
