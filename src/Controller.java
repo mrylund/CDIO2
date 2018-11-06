@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Controller {
     private int spillere;
     private Saldo saldo;
@@ -14,6 +16,8 @@ public class Controller {
     }
 
     public void gameControl() {
-        skriv.hvorMangeSpillere();
+        spiller.addSpiller(spiller.getAntal());
+        skriv.hvemSpiller(spiller.getNavne());
+        System.out.println(Arrays.toString(spiller.getNavne()));
     }
 }

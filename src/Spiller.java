@@ -5,14 +5,20 @@ public class Spiller {
     private int spillerTur = 0;
     private Scanner input;
     private String[] navne;
+    private static int antal;
 
-    public String[] addSpiller(int antalSpillere) {
+    public void addSpiller(int antalSpillere) {
         input = new Scanner(System.in);
         navne = new String[antalSpillere];
         for(int i = 0; i < antalSpillere; i++) {
+            System.out.print("Navn på spiller" + (i+1) + ": ");
             navne[i] = input.nextLine();
         }
-        return navne;
+    }
+
+    public void antalSpillere() {
+        input = new Scanner(System.in);
+        antal = input.nextInt();
     }
 
     public int nextSpiller(int forigeSpiller) {
@@ -28,6 +34,14 @@ public class Spiller {
     public boolean isVinder() {
         saldo = new Saldo();
         return saldo.getSaldo() == saldo.getSLUTPENGE();
+    }
+
+    public String[] getNavne() {
+        return navne;
+    }
+
+    public int getAntal() {
+        return antal;
     }
 
 
