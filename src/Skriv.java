@@ -16,11 +16,15 @@ public class Skriv {
         System.out.print("Hvor mange spillere er I?: ");
     }
 
-    public void hvemSpiller(String[] navne) {
+    public void hvemSpiller(Spiller[] navne) {
         System.out.println("Spillere i dette spil: ");
         for(int i = 0; i < navne.length; i++) {
-            System.out.println("Spiller " + (i+1) + ": " + navne[i]);
+            System.out.println("Spiller " + (i+1) + ": " + navne[i].getNavn());
         }
+    }
+
+    public void nyLinje() {
+        System.out.println();
     }
 
     public void intro(){

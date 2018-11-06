@@ -4,20 +4,27 @@ public class Controller {
     private int spillere;
     private Saldo saldo;
     private Spiller spiller;
+    private SpillerListe spillerliste;
     private Raflebaeger rafle;
     private Skriv skriv;
 
     public Controller(int antalSpillere) {
         spillere = antalSpillere;
+        spillerliste = new SpillerListe();
         saldo = new Saldo();
         rafle = new Raflebaeger();
-        spiller = new Spiller();
         skriv = new Skriv();
+        int spillerTur = 0;
     }
 
     public void spilControl() {
-        spiller.addSpiller(spiller.getAntal());
-        skriv.hvemSpiller(spiller.getNavne());
-        System.out.println(Arrays.toString(spiller.getNavne()));
+
+        spillerliste.addSpiller(spillerliste.getAntal());
+        skriv.hvemSpiller(spillerliste.spillere);
+        skriv.nyLinje();
+
+        while(true) {
+
+        }
     }
 }

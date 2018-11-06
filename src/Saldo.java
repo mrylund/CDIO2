@@ -1,13 +1,12 @@
 public class Saldo {
-    private final int STARTPENGE = 1000;
-    private final int SLUTPENGE = 3000;
-    private int saldo = STARTPENGE;
+
     private Raflebaeger rafle;
+    private SpillerListe spillerliste = new SpillerListe();
 
     public void guld() {
         rafle = new Raflebaeger();
         switch (rafle.sum()) {
-            case 2: /*skriv noget ud*/ saldo += 250;
+            case 2: /*skriv noget ud*/ spillerliste.spillere[spillerliste.currentSpiller()].addSaldo(250);
             case 3:
             case 4:
             case 5:
@@ -20,12 +19,5 @@ public class Saldo {
             case 12:
 
         }
-    }
-
-    public int getSaldo() {
-        return saldo;
-    }
-    public int getSLUTPENGE() {
-        return SLUTPENGE;
     }
 }
