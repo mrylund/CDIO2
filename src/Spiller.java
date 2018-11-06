@@ -13,5 +13,22 @@ public class Spiller {
         return this.navn;
     }
 
+    public int getSaldo() {
+        return this.saldo;
+    }
 
+    public void setSaldo(int nySaldo) {
+        saldo = nySaldo;
+    }
+
+    public void addSaldo(int maengde) {
+        saldo += maengde;
+    }
+
+    public static void main(String[] args) {
+        Spiller spiller = new Spiller("Test");
+
+        System.out.println(spiller.getNavn());
+        System.out.println(spiller.getSaldo());
+    }
 }
