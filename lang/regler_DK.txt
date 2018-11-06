@@ -1,0 +1,23 @@
+ _______________________________________________________________________________________________
+|                                         !SPILLETS REGLER!                                     |
+|_______________________________________________________________________________________________|
+| 1. Der skal trykkes "ENTER" for at rulle med terningerne.                                     |
+| 2. Spilleren mister alle sine point, hvis spilleres slår to 1'ere.                            |
+| 3. Spilleren får en ekstra tur hvis spilleren slår to ens - dette gælder også to 1'ere.       |
+| 4. Spillerens navn skal indeholde bogstaver fra a-z eller tal.                                |
+| 5. Spilleren skal op til 3000 point, for at vinde spillet.                                    |
+| 6. Summen af terningerne afgør hvilket felt du lander på. Du kan lande mellem 2 og 12.        |
+|                                                                                               |
+| 7. Du kan nedenunder se en oversigt over hvad der sker med din saldo, ud fra hvad du slår:    |
+|    * Summen er 2 - Tower:                +250 guld!                                           |
+|    * Summen er 3 - Crater:               -100 guld!                                           |
+|    * Summen er 4 - Palace gates:         +100 guld!                                           |
+|    * Summen er 5 - Cold Desert:           -20 guld!                                           |
+|    * Summen er 6 - Walled city:          +180 guld!                                           |
+|    * Summen er 7 - Monastery:               0 guld!                                           |
+|    * Summen er 8 - Black cave:            -70 guld!                                           |
+|    * Summen er 9 - Huts in the mountain:  +60 guld!                                           |
+|    * Summen er 10 - The Werewall:         -80 guld!  ( EKSTRA TUR )                           |
+|    * Summen er 11 - The pit:              -50 guld!                                           |
+|    * Summen er 12 - Goldmine:            +650 guld!                                           |
+|_______________________________________________________________________________________________|
