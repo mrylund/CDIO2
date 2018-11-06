@@ -45,7 +45,7 @@ public class Skriv {
 
     public void regler(){
         String file1 = "lang/regler_DK.txt";
-        String file2 = "regler_EN.txt";
+        String file2 = "regler_ENG.txt";
         String currentLine = "";
 
         rules = input.nextLine();
@@ -53,7 +53,7 @@ public class Skriv {
         if (rules.equalsIgnoreCase("REGLER")) {
 
             try (BufferedReader reader = new BufferedReader(new FileReader(file1))) {
-                for(int i = 0; i < 24; i++){
+                for(int i = 0; i < 23; i++){
                     System.out.println(currentLine);
                     currentLine = reader.readLine();
                 }
@@ -63,6 +63,18 @@ public class Skriv {
                 e.printStackTrace();
             }
 
+        }else if(rules.equalsIgnoreCase("RULES")){
+
+            try (BufferedReader reader = new BufferedReader(new FileReader(file2))) {
+                for(int i = 0; i < 23; i++){
+                    System.out.println(currentLine);
+                    currentLine = reader.readLine();
+                }
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }

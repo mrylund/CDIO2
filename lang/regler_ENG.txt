@@ -1,0 +1,22 @@
+ _______________________________________________________________________________________________
+|                                      !RULES OF THE GAME!                                      |
+|_______________________________________________________________________________________________|
+| 1. Press "ENTER" to roll the dice.                                                            |
+| 2. Each player starts with 1000 gold.                                                         |
+| 3. Players name can only consist letters between a-z and number.                              |
+| 4. Player must reach 3000 gold, to win the game.                                              |
+| 5. The sum of the dice determines which field you land on. You can land between 2 and 12.     |
+|                                                                                               |
+| 6. You can see the rewards of each sum below:                                                 |
+|    * Sum is 2 - Tower:                +250 guld!                                              |
+|    * Sum is 3 - Crater:               -100 guld!                                              |
+|    * Sum is 4 - Palace gates:         +100 guld!                                              |
+|    * Sum is 5 - Cold Desert:           -20 guld!                                              |
+|    * Sum is 6 - Walled city:          +180 guld!                                              |
+|    * Sum is 7 - Monastery:               0 guld!                                              |
+|    * Sum is 8 - Black cave:            -70 guld!                                              |
+|    * Sum is 9 - Huts in the mountain:  +60 guld!                                              |
+|    * Sum is 10 - The Werewall:         -80 guld!  ( EXTRA TURN )                              |
+|    * Sum is 11 - The pit:              -50 guld!                                              |
+|    * Sum is 12 - Goldmine:            +650 guld!                                              |
+|_______________________________________________________________________________________________|
