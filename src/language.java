@@ -7,9 +7,9 @@ import java.util.HashMap;
 public class language {
     // Der defineres et nyt Hashmap hvor vi vil indsætte strings.
     private HashMap<String, String> langs = new HashMap<String, String>();
-    public language() {
+    public language(String lang) {
         // Filen bliver indlæst
-        String filnavn = "lang/Dansk.txt";
+        String filnavn = "lang/" + lang.toUpperCase() + ".txt";
         try {
             // Der loopes gennem linjerne i language filen og tilføjer language strings til HashMappet.
             BufferedReader reader = new BufferedReader(new FileReader(filnavn));
