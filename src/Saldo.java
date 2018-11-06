@@ -2,6 +2,8 @@ public class Saldo {
 
     private Raflebaeger rafle;
     private SpillerListe spillerliste = new SpillerListe();
+    private final int SLUTPENGE = 3000;
+
 
     public void guld() {
         rafle = new Raflebaeger();
@@ -19,5 +21,9 @@ public class Saldo {
             case 12:
 
         }
+    }
+
+    public int getSLUTPENGE() {
+        return SLUTPENGE;
     }
 }
