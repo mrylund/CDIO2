@@ -15,7 +15,7 @@ public class Controller {
         skriv = new Skriv();
     }
 
-    public void gameControl() {
+    public void spilControl() {
         spiller.addSpiller(spiller.getAntal());
         skriv.hvemSpiller(spiller.getNavne());
         System.out.println(Arrays.toString(spiller.getNavne()));
