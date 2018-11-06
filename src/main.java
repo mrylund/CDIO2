@@ -7,6 +7,7 @@ public class main {
         skriv.regler();
         skriv.hvorMangeSpillere();
         spillerliste.antalSpillere();
+
         new Controller(spillerliste.getAntal()).spilControl();
     }
 }
