@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Spiller {
     private final int STARTSALDO = 1000;
     private int saldo;
@@ -8,6 +6,8 @@ public class Spiller {
     public Spiller(String Navn) {
         saldo = STARTSALDO;
         navn = Navn;
+        //hvis man lavede en static counter, som man talte op hver gang man lavede en spiller fra constuctoren?
+        //ville måske virke
     }
 
     public String getNavn() {
@@ -24,12 +24,5 @@ public class Spiller {
 
     public void addSaldo(int maengde) {
         saldo += maengde;
-    }
-
-    public static void main(String[] args) {
-        Spiller spiller = new Spiller("Test");
-
-        System.out.println(spiller.getNavn());
-        System.out.println(spiller.getSaldo());
     }
 }

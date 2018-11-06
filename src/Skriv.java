@@ -8,6 +8,7 @@ public class Skriv {
 
     Saldo saldo = new Saldo();
     Raflebaeger bæger = new Raflebaeger();
+    language sprog = new language();
     private String rules;
     public Scanner input = new Scanner(System.in);
 
@@ -21,6 +22,11 @@ public class Skriv {
         for(int i = 0; i < navne.length; i++) {
             System.out.println("Spiller " + (i+1) + ": " + navne[i].getNavn());
         }
+    }
+
+    public void hvilketSprog() {
+        System.out.print("Vælg dansk eller engelsk [dk], [eng]: ");
+        sprog.setLanguage(input.nextLine());
     }
 
     public void nyLinje() {

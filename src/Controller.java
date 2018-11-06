@@ -20,6 +20,7 @@ public class Controller {
     public void spilControl() {
 
         spillerliste.addSpiller(spillerliste.getAntal());
+        skriv.nyLinje();
         skriv.hvemSpiller(spillerliste.spillere);
         skriv.nyLinje();
 
