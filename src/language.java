@@ -8,10 +8,14 @@ public class language {
     private HashMap<String, String> langs = new HashMap<String, String>;
     public language() {
         String filnavn = "lang/Dansk.txt";
-        BufferedReader reader = null;
         try {
-            reader = new BufferedReader(new FileReader(filnavn));
+            BufferedReader reader = new BufferedReader(new FileReader(filnavn));
             String lines;
+            while ((lines = reader.readLine()) != null) {
+                String[] line = lines.split("; ");
+                langs.put(line[0], line[1]);
+            }
+            reader.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
