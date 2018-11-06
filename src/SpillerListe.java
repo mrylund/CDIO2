@@ -3,15 +3,16 @@ import java.util.Scanner;
 public class SpillerListe {
     private Scanner input;
     private int spillerTur = 0;
-    private int antal = 0;
+    private static int antal;
     Spiller[] spillere;
 
     public void addSpiller(int antalSpillere) {
         spillere = new Spiller[antalSpillere];
         input = new Scanner(System.in);
         for(int i = 0; i < antalSpillere; i++) {
-            System.out.print("Navn på spiller" + (i+1) + ": ");
-            spillere[i] = new Spiller(input.nextLine());
+            System.out.print("Navn på spiller " + (i+1) + ": ");
+            String temp = input.next();
+            spillere[i] = new Spiller(temp);
         }
     }
 
