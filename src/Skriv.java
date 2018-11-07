@@ -17,6 +17,10 @@ public class Skriv {
         System.out.print("Hvor mange spillere er I?: ");
     }
 
+    public void venterPaaEnter() {
+        input.nextLine();
+    }
+
     public void hvemSpiller(Spiller[] navne) {
         System.out.println("Spillere i dette spil: ");
         for(int i = 0; i < navne.length; i++) {
@@ -27,6 +31,10 @@ public class Skriv {
     public void hvilketSprog() {
         System.out.print("Vælg dansk eller engelsk [dk], [eng]: ");
         sprog.setLanguage(input.nextLine());
+    }
+
+    public void venterPaaSlag() {
+        System.out.println("Tryk ENTER for at slå: ");
     }
 
     public void nyLinje() {

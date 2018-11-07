@@ -25,7 +25,10 @@ public class Controller {
         skriv.nyLinje();
 
         while(true) {
-
+            skriv.venterPaaSlag();
+            skriv.venterPaaEnter();
+            rafle.Kast();
+            System.out.println(rafle.toString(rafle.getTerninger()));
         }
     }
 }

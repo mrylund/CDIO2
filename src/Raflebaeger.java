@@ -27,6 +27,7 @@ public class Raflebaeger {
     }
 
     public String toString(int[] arr) {
+        arrayString = "";
         arrayString += "(";
         for(int i = 0; i < arr.length; i++) {
             arrayString += "[" + arr[i] + "]";
