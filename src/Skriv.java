@@ -32,6 +32,14 @@ public class Skriv {
         }
     }
 
+    public void resultat(Spiller[] spillere) {
+        System.out.println(spillere[0].getNavn() + ": " + spillere[0].getSaldo() + "            " +  spillere[1].getNavn() + ": " +spillere[1].getSaldo());
+    }
+
+    public void spillertur(String navn) {
+        System.out.println("Det er nu " + navn + "s tur.");
+    }
+
     public void hvilketSprog() {
         System.out.print("Vælg dansk eller engelsk [dk], [eng]: ");
         sprog.setLanguage(input.nextLine());

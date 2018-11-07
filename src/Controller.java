@@ -12,23 +12,29 @@ public class Controller {
         saldo = new Saldo();
         rafle = new Raflebaeger();
         skriv = new Skriv();
-        int spillerTur = 0;
     }
 
     public void spilControl() {
-
         spillerliste.addSpiller(spillerliste.getAntal());
         skriv.nyLinje();
         skriv.hvemSpiller(spillerliste.spillere);
         skriv.nyLinje();
 
         while(true) {
+            skriv.spillertur(spillerliste.getCurrentSpillerNavn());
             skriv.venterPaaSlag();
             skriv.trykEnter();
             rafle.Kast();
             System.out.println(rafle.toString(rafle.getTerninger()));
             skriv.visSum();
             System.out.println(rafle.sum());
+            saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
+            spillerliste.nextSpiller();
+
+            skriv.resultat(spillerliste.getSpillere());
+            skriv.nyLinje();
+            skriv.nyLinje();
         }
+
     }
 }

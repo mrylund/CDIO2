@@ -15,18 +15,30 @@ public class SpillerListe {
         }
     }
 
-    public int nextSpiller(int forigeSpiller) {
-        spillerTur = forigeSpiller;
-        if(spillerTur == spillere.length) { //navne.length måske +1 elle -1. Kommer an på hvordan vi index'ere spillerne
+    public void nextSpiller() {
+        if(spillerTur == spillere.length-1) { //navne.length måske +1 elle -1. Kommer an på hvordan vi index'ere spillerne
             spillerTur = 0;
         } else {
             spillerTur++;
         }
+    }
+
+    public Spiller getCurSpiller() {
+        return spillere[this.getCurrentSpillerNr()];
+    }
+
+    public Spiller[] getSpillere() {
+        return spillere;
+    }
+
+    public int getCurrentSpillerNr() {
         return spillerTur;
     }
 
-    public Spiller getCurrentSpiller(int index) {
-        return spillere[index];
+
+
+    public String getCurrentSpillerNavn() {
+        return spillere[spillerTur].getNavn();
     }
 
     public void antalSpillere() {
