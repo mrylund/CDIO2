@@ -41,7 +41,7 @@ public class Raflebaeger {
 
     public boolean isEns() {
         int n = terninger[0];
-        int counter = 0;
+        int counter = 1;
         for(int i = 1; i < terninger.length; i++) {
             if(terninger[i] == n) {
                 counter++;
@@ -68,3 +68,4 @@ public class Raflebaeger {
         return this.antalTerninger = antalTerninger;
     }
 }
+
