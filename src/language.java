@@ -9,6 +9,7 @@ public class language {
     private HashMap<String, String> langs = new HashMap<String, String>();
     private String languagestr;
     public language() {
+
     }
     public void setLanguage(String lang) {
         languagestr = lang;

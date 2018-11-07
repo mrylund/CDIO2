@@ -1,0 +1,11 @@
+ ________________________________________________________
+|                    INTRODUCTION                        |
+|            !!!Welcome to the dicegame!!!               |
+|________________________________________________________|
+| * In this game, you have to roll 2 dice.               |
+|   - Each player starts with 1000 gold.                 |
+|   - The player who reaches 3000 gold first,            |
+|     wins the game.                                     |
+| * You can read the rules by typing "RULES".            |
+| * Press "ENTER" to start the game.                     |
+|________________________________________________________|

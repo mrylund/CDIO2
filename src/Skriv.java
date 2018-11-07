@@ -11,6 +11,8 @@ public class Skriv {
     language sprog = new language();
     SpillerListe spillerliste = new SpillerListe();
     private String rules;
+    private String intro;
+
     public Scanner input = new Scanner(System.in);
 
 
@@ -57,24 +59,30 @@ public class Skriv {
     }
 
     public void intro(){
-        System.out.println(" ________________________________________________________");
-        System.out.println("|                    INTRODUKTION                        |");
-        System.out.println("|        !!!Velkommen til terningespillet!!!             |");
-        System.out.println("|________________________________________________________|");
-        System.out.print("| * I dette spil, skal der rulles med 2 terninger.       |" + "\n" +
-                "|   - Hver spiller starter med en saldo på 1000 guld     |" + "\n" +
-                "|   - Den spiller, som når til " + saldo.getSLUTPENGE() + " guld først,          | "
-                + "\n" + "|     vinder spillet                                     |");
-        System.out.println();
-        System.out.println("| * Du kan få oplyst reglerne ved at skrive \"REGLER\".    |");
-        System.out.println("| * Tryk på \"ENTER\", for at komme videre i spillet!      |");
-        System.out.println("|________________________________________________________|");
+        String filnavn = "lang/intro_" + sprog.getLanguage().toUpperCase() + ".txt";
+
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(filnavn));
+            String currentLine = "";
+
+            for(int i = 0; i < 12; i++){
+                System.out.println(currentLine);
+                currentLine = reader.readLine();
+            }
+            reader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
 
     }
 
     public void regler(){
-        String file1 = "lang/regler_DK.txt";
-        String file2 = "regler_ENG.txt";
+        String file1 = "lang/regler_DK.txt"; //+ sprog.getLanguage() + ".txt";
+        String file2 = "lang/regler_ENG.txt";
         String currentLine = "";
 
         rules = input.nextLine();
