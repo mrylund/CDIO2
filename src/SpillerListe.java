@@ -1,3 +1,4 @@
+import java.text.ParseException;
 import java.util.Scanner;
 
 public class SpillerListe {
@@ -5,6 +6,7 @@ public class SpillerListe {
     private int spillerTur = 0;
     private static int antal = 0;
     Spiller[] spillere;
+    Skriv skriv;
 
     public void addSpiller(int antalSpillere) {
         spillere = new Spiller[antalSpillere];
@@ -39,15 +41,35 @@ public class SpillerListe {
         return spillerTur;
     }
 
-
-
     public String getCurrentSpillerNavn() {
         return spillere[spillerTur].getNavn();
     }
 
     public void antalSpillere() {
+        skriv = new Skriv();
+        boolean success = false;
+        String temp;
         input = new Scanner(System.in);
-        antal = input.nextInt();
+
+        do {
+            if (isParsable(temp = input.nextLine())) {
+                antal = Integer.parseInt(temp);
+                success = true;
+            } else {
+                System.out.println("Du skal skrive et antal spillere. Prøv igen.");
+                skriv.hvorMangeSpillere();
+            }
+        } while(!success);
+    }
+
+    public boolean isParsable(String input) {
+        boolean parsable = true;
+        try {
+            Integer.parseInt(input);
+        } catch (Exception e) {
+            parsable = false;
+        }
+        return parsable;
     }
 
     public int getAntal() {
