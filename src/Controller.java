@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Controller {
     private int spillere;
     private Saldo saldo;
@@ -26,7 +24,7 @@ public class Controller {
 
         while(true) {
             skriv.venterPaaSlag();
-            skriv.venterPaaEnter();
+            skriv.trykEnter();
             rafle.Kast();
             System.out.println(rafle.toString(rafle.getTerninger()));
         }

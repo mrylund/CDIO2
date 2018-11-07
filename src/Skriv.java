@@ -17,7 +17,7 @@ public class Skriv {
         System.out.print("Hvor mange spillere er I?: ");
     }
 
-    public void venterPaaEnter() {
+    public void trykEnter() {
         input.nextLine();
     }
 
