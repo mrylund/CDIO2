@@ -8,7 +8,6 @@ public class Skriv {
 
     Saldo saldo = new Saldo();
     Raflebaeger bæger = new Raflebaeger();
-    language sprog = new language();
     SpillerListe spillerliste = new SpillerListe();
     private String rules;
     private String intro;
@@ -17,7 +16,7 @@ public class Skriv {
 
 
     public void hvorMangeSpillere() {
-        System.out.print("Hvor mange spillere er I?: ");
+        System.out.print(language.get("AntalSpillere"));
     }
 
     public void trykEnter() {
@@ -25,24 +24,25 @@ public class Skriv {
     }
 
     public void visSum() {
-        System.out.print("Du slog i alt: ");
+        System.out.print(language.get("DuSlogTotal"));
     }
 
     public void hvemSpiller(Spiller[] navne) {
-        System.out.println("Spillere i dette spil: ");
+        System.out.println(language.getLanguage());
+        System.out.println(language.get("Spillere"));
         for(int i = 0; i < navne.length; i++) {
-            System.out.println("Spiller " + (i+1) + ": " + navne[i].getNavn());
+            System.out.println(String.format(language.get("Spiller"), i+1, navne[i].getNavn()));
         }
     }
 
     public void resultat(Spiller[] spillere) {
         for(int i = 0; i < spillerliste.getAntal(); i++) {
-            System.out.println(spillere[i].getNavn() + ": " + spillere[i].getSaldo());
+            System.out.println(String.format(language.get("SpillerSaldo"),spillere[i].getNavn(), spillere[i].getSaldo()));
         }
     }
 
     public void spillertur(String navn) {
-        System.out.println("Det er nu " + navn + "s tur.");
+        System.out.println(String.format(language.get("SpillerTur"), navn));
     }
 
     public void hvilketSprog() {
@@ -51,7 +51,7 @@ public class Skriv {
         do {
             String input1 = input.nextLine();
             if (input1.equalsIgnoreCase("dk") || input1.equalsIgnoreCase("eng")) {
-                sprog.setLanguage(input1);
+                language.setLanguage(input1);
                 success = true;
             } else {
                 System.out.print("Invalid input! Try entering [dk] or [eng] again: ");
@@ -62,7 +62,7 @@ public class Skriv {
     }
 
     public void venterPaaSlag() {
-        System.out.println("Tryk ENTER for at slå: ");
+        System.out.println(language.get("EnterSlaa"));
     }
 
     public void nyLinje() {
@@ -70,7 +70,7 @@ public class Skriv {
     }
 
     public void intro(){
-        String filnavn = "lang/intro_" + sprog.getLanguage().toUpperCase() + ".txt";
+        String filnavn = "lang/intro_" + language.getLanguage().toUpperCase() + ".txt";
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(filnavn));

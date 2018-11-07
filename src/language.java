@@ -6,12 +6,9 @@ import java.util.HashMap;
 
 public class language {
     // Der defineres et nyt Hashmap hvor vi vil indsætte strings.
-    private HashMap<String, String> langs = new HashMap<String, String>();
-    private String languagestr;
-    public language() {
-
-    }
-    public void setLanguage(String lang) {
+    private static HashMap<String, String> langs = new HashMap<String, String>();
+    private static String languagestr;
+    public static void setLanguage(String lang) {
         languagestr = lang;
         // Filen bliver indlæst
         String filnavn = "lang/" + lang.toUpperCase() + ".txt";
@@ -32,10 +29,10 @@ public class language {
     }
 
     // Get Metode til at få en language string ud fra en key.
-    public String get(String key) {
+    public static String get(String key) {
         return langs.get(key);
     }
-    public String getLanguage() {
+    public static String getLanguage() {
         return languagestr;
     }
 }
