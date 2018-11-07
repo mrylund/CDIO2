@@ -5,6 +5,7 @@ public class main {
         language sprog = new language();
 
         skriv.hvilketSprog();
+        sprog.getLanguage();
         skriv.intro();
         skriv.regler();
         skriv.hvorMangeSpillere();
