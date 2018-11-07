@@ -24,12 +24,17 @@ public class Controller {
             skriv.spillertur(spillerliste.getCurrentSpillerNavn());
             skriv.venterPaaSlag();
             skriv.trykEnter();
-            rafle.Kast();
+            rafle.kast();
             System.out.println(rafle.toString(rafle.getTerninger()));
             skriv.visSum();
             System.out.println(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
-            spillerliste.nextSpiller();
+
+            if(rafle.isEns()) {
+                spillerliste.slaaIgen();
+            } else {
+                spillerliste.nextSpiller();
+            }
 
             skriv.resultat(spillerliste.getSpillere());
             skriv.nyLinje();

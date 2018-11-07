@@ -15,6 +15,10 @@ public class SpillerListe {
         }
     }
 
+    public void slaaIgen() {
+        spillerTur = getSpillerTur();
+    }
+
     public void nextSpiller() {
         if(spillerTur == spillere.length-1) { //navne.length måske +1 elle -1. Kommer an på hvordan vi index'ere spillerne
             spillerTur = 0;
@@ -48,6 +52,10 @@ public class SpillerListe {
 
     public int getAntal() {
         return antal;
+    }
+
+    public int getSpillerTur() {
+        return spillerTur;
     }
 
 }

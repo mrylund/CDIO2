@@ -7,11 +7,11 @@ public class Raflebaeger {
     private int[] terninger;
     private String arrayString = "";
 
-    private int terningeØjne() {
+    public int terningeØjne() {
         return dice = (int)(Math.random() * øjne + 1); //værdi fra 1 til øjne-værdi
     }
 
-    public int[] Kast() {
+    public int[] kast() {
         terninger = new int[antalTerninger];
         for(int i = 0; i < terninger.length; i++) {
             terninger[i] = terningeØjne();

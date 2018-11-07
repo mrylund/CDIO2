@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Spiller {
-    private final int STARTSALDO = 3000;
+    private final int STARTSALDO = 1000;
     private int saldo;
     private String navn;
     private static int counter = 0; //tæller op hver gang en spiller bliver lavet
