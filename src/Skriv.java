@@ -9,6 +9,7 @@ public class Skriv {
     Saldo saldo = new Saldo();
     Raflebaeger bæger = new Raflebaeger();
     language sprog = new language();
+    SpillerListe spillerliste = new SpillerListe();
     private String rules;
     public Scanner input = new Scanner(System.in);
 
@@ -33,7 +34,9 @@ public class Skriv {
     }
 
     public void resultat(Spiller[] spillere) {
-        System.out.println(spillere[0].getNavn() + ": " + spillere[0].getSaldo() + "            " +  spillere[1].getNavn() + ": " +spillere[1].getSaldo());
+        for(int i = 0; i < spillerliste.getAntal(); i++) {
+            System.out.println(spillere[i].getNavn() + ": " + spillere[i].getSaldo());
+        }
     }
 
     public void spillertur(String navn) {
