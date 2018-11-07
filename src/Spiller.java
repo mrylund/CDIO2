@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Spiller {
-    private final int STARTSALDO = 1000;
+    private final int STARTSALDO = 3000;
     private int saldo;
     private String navn;
     private static int counter = 0; //tæller op hver gang en spiller bliver lavet
@@ -17,7 +17,6 @@ public class Spiller {
         return this.navn;
     }
 
-
     public int getSaldo() {
         return this.saldo;
     }
@@ -28,5 +27,8 @@ public class Spiller {
 
     public void addSaldo(int maengde) {
         saldo += maengde;
+        if(saldo < 0) {
+            saldo = 0;
+        }
     }
 }
