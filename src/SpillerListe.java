@@ -25,8 +25,8 @@ public class SpillerListe {
         return spillerTur;
     }
 
-    public int currentSpiller() {
-        return spillerTur;
+    public Spiller getCurrentSpiller(int index) {
+        return spillere[index];
     }
 
     public void antalSpillere() {

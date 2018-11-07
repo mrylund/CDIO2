@@ -20,6 +20,7 @@ public class Raflebaeger {
     }
 
     public int sum() {
+        terningeSum = 0;
         for(int i = 0; i < terninger.length; i++) {
             terningeSum += terninger[i];
         }

@@ -21,6 +21,10 @@ public class Skriv {
         input.nextLine();
     }
 
+    public void visSum() {
+        System.out.print("Du slog i alt: ");
+    }
+
     public void hvemSpiller(Spiller[] navne) {
         System.out.println("Spillere i dette spil: ");
         for(int i = 0; i < navne.length; i++) {

@@ -27,6 +27,8 @@ public class Controller {
             skriv.trykEnter();
             rafle.Kast();
             System.out.println(rafle.toString(rafle.getTerninger()));
+            skriv.visSum();
+            System.out.println(rafle.sum());
         }
     }
 }

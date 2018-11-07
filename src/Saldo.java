@@ -8,7 +8,7 @@ public class Saldo {
     public void guld() {
         rafle = new Raflebaeger();
         switch (rafle.sum()) {
-            case 2: /*skriv noget ud*/ spillerliste.spillere[spillerliste.currentSpiller()].addSaldo(250);
+            case 2: /*skriv noget ud*/ //spillerliste.spillere[spillerliste.getCurrentSpiller(1)].addSaldo(250);
             case 3:
             case 4:
             case 5:
