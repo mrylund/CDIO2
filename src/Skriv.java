@@ -46,8 +46,19 @@ public class Skriv {
     }
 
     public void hvilketSprog() {
+        boolean success = false;
         System.out.print("Vælg dansk eller engelsk [dk], [eng]: ");
-        sprog.setLanguage(input.nextLine());
+        do {
+            String input1 = input.nextLine();
+            if (input1.equalsIgnoreCase("dk") || input1.equalsIgnoreCase("eng")) {
+                sprog.setLanguage(input1);
+                success = true;
+            } else {
+                System.out.print("Invalid input! Try entering [dk] or [eng] again: ");
+            }
+
+        }while(!success);
+
     }
 
     public void venterPaaSlag() {
