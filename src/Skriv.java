@@ -23,8 +23,12 @@ public class Skriv {
         input.nextLine();
     }
 
-    public void visSum() {
-        System.out.print(language.get("DuSlogTotal"));
+    public void streg(){
+        System.out.println("_____________________________");
+    }
+
+    public void visSum(int felt) {
+        System.out.println(String.format(language.get("DuSlogTotal"), felt));
     }
 
     public void hvemSpiller(Spiller[] navne) {
@@ -38,6 +42,7 @@ public class Skriv {
         for(int i = 0; i < spillerliste.getAntal(); i++) {
             System.out.println(String.format(language.get("SpillerSaldo"),spillere[i].getNavn(), spillere[i].getSaldo()));
         }
+
     }
 
     public void spillertur(String navn) {
@@ -61,7 +66,7 @@ public class Skriv {
     }
 
     public void venterPaaSlag() {
-        System.out.println(language.get("EnterSlaa"));
+        System.out.print(language.get("EnterSlaa"));
     }
 
     public void nyLinje() {

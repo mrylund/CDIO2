@@ -19,18 +19,20 @@ public class Controller {
         skriv.nyLinje();
         skriv.hvemSpiller(spillerliste.spillere);
         skriv.nyLinje();
+        skriv.streg();
+        skriv.nyLinje();
 
-        while(true) {
+        while (true) {
             skriv.spillertur(spillerliste.getCurrentSpillerNavn());
             skriv.venterPaaSlag();
             skriv.trykEnter();
             rafle.kast();
             System.out.println(rafle.toString(rafle.getTerninger()));
-            skriv.visSum();
-            System.out.println(rafle.sum());
+            skriv.visSum(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
             skriv.resultat(spillerliste.getSpillere());
             if (spillerliste.getCurSpiller().isVinder()) {
+                skriv.nyLinje();
                 skriv.vinder(spillerliste.getCurSpiller());
                 break;
             }
@@ -41,7 +43,7 @@ public class Controller {
                 spillerliste.nextSpiller();
             }
 
-            skriv.nyLinje();
+            skriv.streg();
             skriv.nyLinje();
         }
 
