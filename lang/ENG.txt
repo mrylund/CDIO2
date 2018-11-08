@@ -6,6 +6,9 @@ SpillerTur; It is %s's turn.
 SpillerNavn; Name of player %d:
 SpillerSaldo; %1$s: %2$d
 EnterSlaa; Press ENTER to throw:
+NytTal; You have to write a number. Try again.
+MereEnd1; This game must have at least 1 player. Try again.
+Der kan mindst være én spiller. Prøv igen.
 Felt2; Du landte på feltet Tower og får 250 point!
 Felt3; Du landte på feltet Crater og mister 100 point!
 Felt4; Du landte på feltet Palace Gates og får 100 point!

@@ -6,6 +6,8 @@ SpillerTur; Det er nu %s's tur.
 SpillerNavn; Navn på spiller %d:
 SpillerSaldo; %1$s: %2$d
 EnterSlaa; Tryk ENTER for at slå:
+NytTal; Du skal skrive et tal. Prøv igen.
+MereEnd1; Der kan mindst være én spiller. Prøv igen.
 Felt2; Du landte på feltet Tower og får 250 point!
 Felt3; Du landte på feltet Crater og mister 100 point!
 Felt4; Du landte på feltet Palace Gates og får 100 point!

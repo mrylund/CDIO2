@@ -8,6 +8,7 @@ public class language {
     // Der defineres et nyt Hashmap hvor vi vil indsætte strings.
     private static HashMap<String, String> langs = new HashMap<String, String>();
     private static String languagestr;
+
     public static void setLanguage(String lang) {
         languagestr = lang;
         // Filen bliver indlæst
