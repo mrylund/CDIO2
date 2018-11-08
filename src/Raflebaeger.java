@@ -50,7 +50,7 @@ public class Raflebaeger {
         return counter == terninger.length;
     }
 
-    public boolean slogTi() {
+    public boolean ekstraTur() {
         return sum() == 10;
     }
 

@@ -35,7 +35,7 @@ public class Controller {
                 break;
             }
 
-            if(rafle.slogTi()) {
+            if(rafle.ekstraTur()) {
                 spillerliste.slaaIgen();
             } else {
                 spillerliste.nextSpiller();
