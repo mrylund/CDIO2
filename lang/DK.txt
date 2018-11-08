@@ -5,19 +5,19 @@ Spiller; Spiller %1$d: %2$s
 SpillerTur; Det er nu %s's tur.
 SpillerNavn; Navn på spiller %d:
 SpillerSaldo; %1$s: %2$d guld!
-Vinder; %1$s har vundet spillet med %2$s point!
+Vinder; %1$s har vundet spillet med %2$s guld!
 EnterSlaa; Tryk ENTER for at slå:
-SpillerNavn; %1$s slog: %2$d
+SpillerSlag; %1$s slog %2$s og du lander på felt %3$d
 NytTal; Du skal skrive et tal. Prøv igen.
 MinMax; Der kan mindst være én spiller og maks 10. Prøv igen.
-Felt2; Du landte på feltet Tower og får 250 point!
-Felt3; Du landte på feltet Crater og mister 100 point!
-Felt4; Du landte på feltet Palace Gates og får 100 point!
-Felt5; Du landte på feltet Cold Desert og mister 20 point!
-Felt6; Du landte på feltet Walled City og får 180 point!
-Felt7; Du landte på feltet Monastery og får ingen point!
-Felt8; Du landte på feltet Black Cave og mister 70 point!
-Felt9; Du landte på feltet Huts in the mountain og får 60 point!
-Felt10; Du landte på feltet The Werewall og mister 80 point, men du får en ekstra tur!
-Felt11; Du landte på feltet The pit og mister 50 point!
-Felt12; Du landte på feltet Goldmine og får 650 point!
+Felt2; Du landte på feltet Tower og får 250 guld!
+Felt3; Du landte på feltet Crater og mister 100 guld!
+Felt4; Du landte på feltet Palace Gates og får 100 guld!
+Felt5; Du landte på feltet Cold Desert og mister 20 guld!
+Felt6; Du landte på feltet Walled City og får 180 guld!
+Felt7; Du landte på feltet Monastery og får ingen guld!
+Felt8; Du landte på feltet Black Cave og mister 70 guld!
+Felt9; Du landte på feltet Huts in the mountain og får 60 guld!
+Felt10; Du landte på feltet The Werewall og mister 80 guld, men du får en ekstra tur!
+Felt11; Du landte på feltet The pit og mister 50 guld!
+Felt12; Du landte på feltet Goldmine og får 650 guld!

@@ -14,8 +14,12 @@ public class Skriv {
 
     public Scanner input = new Scanner(System.in);
 
-    public void tekst(Spiller spiller,int sum){
-        System.out.println(String.format(language.get("SpillerNavn"),spiller.getNavn(), sum));
+    public static void felt(int felt) {
+        System.out.println(language.get("Felt" + felt));
+    }
+
+    public void tekst(Spiller spiller, String terninger, int sum){
+        System.out.println(String.format(language.get("SpillerSlag"), spiller.getNavn(), terninger, sum));
     }
     public void hvorMangeSpillere() {
         System.out.print(language.get("AntalSpillere"));
