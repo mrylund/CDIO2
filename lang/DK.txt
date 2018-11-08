@@ -7,9 +7,9 @@ SpillerNavn; Navn på spiller %d:
 SpillerSaldo; %1$s: %2$d guld!
 Vinder; %1$s har vundet spillet med %2$s guld!
 EnterSlaa; Tryk ENTER for at slå:
-SpillerSlag; %1$s slog %2$s og du lander på felt %3$d
+SpillerSlag; %1$s slog %2$s og lander på felt %3$d
 NytTal; Du skal skrive et tal. Prøv igen.
-MinMax; Der kan mindst være én spiller og maks 10. Prøv igen.
+MinMax; Der kan mindst være 1 spiller og maks 10. Prøv igen.
 NavneLaengde; Dit navn skal være mellem 1 og 10 tegn. Prøv igen.
 Felt2; Du landte på feltet Tower og får 250 guld!
 Felt3; Du landte på feltet Crater og mister 100 guld!
