@@ -18,11 +18,11 @@ public class SpillerListe {
                 success = false;
                 System.out.print(String.format(language.get("SpillerNavn"), (i + 1)));
                 temp = input.nextLine();
-                if (temp.length() < 11) {
+                if (temp.length() < 11 && temp.length() > 1) {
                     spillere[i] = new Spiller(temp);
                     success = true;
                 } else {
-                    System.out.println(language.get("ForLangt"));
+                    System.out.println(language.get("NavneLaengde"));
                 }
             } while(!success);
         }

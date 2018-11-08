@@ -10,7 +10,7 @@ EnterSlaa; Tryk ENTER for at slå:
 SpillerSlag; %1$s slog %2$s og du lander på felt %3$d
 NytTal; Du skal skrive et tal. Prøv igen.
 MinMax; Der kan mindst være én spiller og maks 10. Prøv igen.
-ForLangt; Dit navn skal være under 10 tegn. Prøv igen.
+NavneLaengde; Dit navn skal være mellem 1 og 10 tegn. Prøv igen.
 Felt2; Du landte på feltet Tower og får 250 guld!
 Felt3; Du landte på feltet Crater og mister 100 guld!
 Felt4; Du landte på feltet Palace Gates og får 100 guld!
