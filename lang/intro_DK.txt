@@ -1,11 +1,11 @@
- ________________________________________________________
-|                    INTRODUKTION                        |
-|            !!!Velkommen til terningespillet!!!         |
-|________________________________________________________|
-| * I dette spil, skal der rulles med 2 terninger.       |
-|   - Hver spiller starter med 1000 guld.                |
-|   - Den spiller som når til 3000 guld først,           |
-|     vinder spillet.                                    |
-| * Man kan læse reglerne, ved at skrive "REGLER".       |
-| * Tryk "ENTER", for at starte spillet.                 |
-|________________________________________________________|
+┌───────────────────────────────────────────────────────────────┐
+│                    INTRODUKTION                        │
+│            !!!Velkommen til terningespillet!!!         │
+├───────────────────────────────────────────────────────────────┤
+│ * I dette spil, skal der rulles med 2 terninger.       │
+│   - Hver spiller starter med 1000 guld.                │
+│   - Den spiller som når til 3000 guld først,           │
+│     vinder spillet.                                    │
+│ * Man kan læse reglerne, ved at skrive "REGLER".       │
+│ * Tryk "ENTER", for at starte spillet.                 │
+└───────────────────────────────────────────────────────────────┘

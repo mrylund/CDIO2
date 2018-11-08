@@ -28,7 +28,6 @@ public class Skriv {
     }
 
     public void hvemSpiller(Spiller[] navne) {
-        System.out.println(language.getLanguage());
         System.out.println(language.get("Spillere"));
         for(int i = 0; i < navne.length; i++) {
             System.out.println(String.format(language.get("Spiller"), i+1, navne[i].getNavn()));
