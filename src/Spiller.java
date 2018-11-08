@@ -25,6 +25,10 @@ public class Spiller {
         saldo = nySaldo;
     }
 
+    public boolean isVinder() {
+        return this.saldo >= Saldo.getSLUTPENGE();
+    }
+
     public void addSaldo(int maengde) {
         saldo += maengde;
         if(saldo < 0) {

@@ -29,6 +29,11 @@ public class Controller {
             skriv.visSum();
             System.out.println(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
+            skriv.resultat(spillerliste.getSpillere());
+            if (spillerliste.getCurSpiller().isVinder()) {
+                skriv.vinder(spillerliste.getCurSpiller());
+                break;
+            }
 
             if(rafle.isEns()) {
                 spillerliste.slaaIgen();
@@ -36,7 +41,6 @@ public class Controller {
                 spillerliste.nextSpiller();
             }
 
-            skriv.resultat(spillerliste.getSpillere());
             skriv.nyLinje();
             skriv.nyLinje();
         }
