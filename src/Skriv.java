@@ -91,6 +91,10 @@ public class Skriv {
 
     }
 
+    public void vinder(Spiller spiller) {
+        System.out.println(String.format(language.get("Vinder"), spiller.getNavn(), spiller.getSaldo()));
+    }
+
     public void regler(){
         String file1 = "lang/regler_DK.txt"; //+ sprog.getLanguage() + ".txt";
         String file2 = "lang/regler_ENG.txt";
