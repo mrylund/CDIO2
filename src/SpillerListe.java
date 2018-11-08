@@ -10,8 +10,8 @@ public class SpillerListe {
     public void addSpiller(int antalSpillere) {
         spillere = new Spiller[antalSpillere];
         input = new Scanner(System.in);
-        String temp = "";
-        boolean success = false;
+        String temp;
+        boolean success;
 
         for(int i = 0; i < antalSpillere; i++) {
             do {
