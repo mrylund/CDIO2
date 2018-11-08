@@ -14,7 +14,9 @@ public class Skriv {
 
     public Scanner input = new Scanner(System.in);
 
-
+    public void tekst(Spiller spiller,int sum){
+        System.out.println(String.format(language.get("SpillerNavn"),spiller.getNavn(), sum));
+    }
     public void hvorMangeSpillere() {
         System.out.print(language.get("AntalSpillere"));
     }
@@ -90,9 +92,6 @@ public class Skriv {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-
     }
 
     public void vinder(Spiller spiller) {

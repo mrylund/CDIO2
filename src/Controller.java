@@ -26,7 +26,9 @@ public class Controller {
             skriv.spillertur(spillerliste.getCurrentSpillerNavn());
             skriv.venterPaaSlag();
             skriv.trykEnter();
+            skriv.streg();
             rafle.kast();
+            skriv.tekst(spillerliste.getCurSpiller(),rafle.sum());
             System.out.println(rafle.toString(rafle.getTerninger()));
             skriv.visSum(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
@@ -42,10 +44,8 @@ public class Controller {
             } else {
                 spillerliste.nextSpiller();
             }
-
             skriv.streg();
             skriv.nyLinje();
         }
-
     }
 }
