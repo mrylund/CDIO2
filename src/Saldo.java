@@ -21,7 +21,6 @@ public class Saldo {
             case 12: spiller.addSaldo(650); Skriv.felt(12);
 
             break;
-
         }
     }
 

@@ -10,10 +10,21 @@ public class SpillerListe {
     public void addSpiller(int antalSpillere) {
         spillere = new Spiller[antalSpillere];
         input = new Scanner(System.in);
+        String temp = "";
+        boolean success = false;
 
         for(int i = 0; i < antalSpillere; i++) {
-            System.out.print(String.format(language.get("SpillerNavn"),(i + 1)));
-            spillere[i] = new Spiller(input.nextLine());
+            do {
+                success = false;
+                System.out.print(String.format(language.get("SpillerNavn"), (i + 1)));
+                temp = input.nextLine();
+                if (temp.length() < 11) {
+                    spillere[i] = new Spiller(temp);
+                    success = true;
+                } else {
+                    System.out.println(language.get("ForLangt"));
+                }
+            } while(!success);
         }
     }
 
