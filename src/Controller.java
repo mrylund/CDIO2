@@ -35,7 +35,7 @@ public class Controller {
                 break;
             }
 
-            if(rafle.isEns()) {
+            if(rafle.slogTi()) {
                 spillerliste.slaaIgen();
             } else {
                 spillerliste.nextSpiller();

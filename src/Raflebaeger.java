@@ -50,6 +50,10 @@ public class Raflebaeger {
         return counter == terninger.length;
     }
 
+    public boolean slogTi() {
+        return sum() == 10;
+    }
+
     //get og set metoder
     public int getØjne() {
         return øjne;

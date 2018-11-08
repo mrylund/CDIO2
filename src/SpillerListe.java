@@ -11,16 +11,11 @@ public class SpillerListe {
         spillere = new Spiller[antalSpillere];
         input = new Scanner(System.in);
 
-
         for(int i = 0; i < antalSpillere; i++) {
             System.out.print(String.format(language.get("SpillerNavn"),(i + 1)));
             spillere[i] = new Spiller(input.nextLine());
         }
-
-
     }
-
-
 
     public void slaaIgen() {
         spillerTur = getSpillerTur();
@@ -72,7 +67,7 @@ public class SpillerListe {
         } while(!success);
     }
 
-    public boolean isParsableInt(String input) {
+    private boolean isParsableInt(String input) {
         boolean parsable = true;
         try {
             Integer.parseInt(input);
