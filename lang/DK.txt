@@ -8,7 +8,7 @@ SpillerSaldo; %1$s: %2$d
 Vinder; %1$s har vundet spillet med %2$s point!
 EnterSlaa; Tryk ENTER for at slå:
 NytTal; Du skal skrive et tal. Prøv igen.
-MereEnd1; Der kan mindst være én spiller. Prøv igen.
+MinMax; Der kan mindst være én spiller og maks 10. Prøv igen.
 Felt2; Du landte på feltet Tower og får 250 point!
 Felt3; Du landte på feltet Crater og mister 100 point!
 Felt4; Du landte på feltet Palace Gates og får 100 point!

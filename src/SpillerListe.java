@@ -59,8 +59,8 @@ public class SpillerListe {
         do {
             if (isParsableInt(temp = input.nextLine())) {
                 antal = Integer.parseInt(temp);
-                if(antal < 1) {
-                    System.out.println(language.get("MereEnd1"));
+                if(antal < 1 || antal > 10) {
+                    System.out.println(language.get("MinMax"));
                     skriv.hvorMangeSpillere();
                 } else {
                     success = true;
