@@ -1,0 +1,12 @@
+┌───────────────────────────────────────────────────────────────┐
+│                 Æ INTRODUKTION TE Æ SPIL               │
+│            !!!Velkom te æ terning'spil!!!              │
+├───────────────────────────────────────────────────────────────┤
+│ * I det't spil, ska der rul's mæe 2 terninger.         │
+│   - Ålle spiller start't mæe 1000 guld.                │
+│   - Æ Spiller ska op tæ 3000 guld for't tæv sine       │
+│     moejstandere, och ka så taej æ trofæ.              │
+│                                                        │
+│ * Do ka læs æ regler, væe't skriv "Æ REGLER".          │
+│ * Tryk å "ENTER", fo'at start æ spil.                  │
+└───────────────────────────────────────────────────────────────┘

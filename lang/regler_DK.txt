@@ -1,0 +1,22 @@
+ _______________________________________________________________________________________________
+|                                         !SPILLETS REGLER!                                     |
+|_______________________________________________________________________________________________|
+| 1. Der skal trykkes "ENTER" for at rulle med terningerne.                                     |
+| 2. Hver spiller starter med 1000 guld.                                                        |
+| 3. Spillerens navn kan indeholde bogstaver fra a-z eller tal.                                 |
+| 4. Spilleren skal op til 3000 guld, for at vinde spillet.                                    |
+| 5. Summen af terningerne afgør hvilket felt du lander på. Du kan lande mellem 2 og 12.        |
+|                                                                                               |
+| 6. Du kan nedenunder se en oversigt over hvad der sker med din saldo, ud fra hvad du slår:    |
+|    * Summen er 2 - Tower:                +250 guld!                                           |
+|    * Summen er 3 - Crater:               -100 guld!                                           |
+|    * Summen er 4 - Palace gates:         +100 guld!                                           |
+|    * Summen er 5 - Cold Desert:           -20 guld!                                           |
+|    * Summen er 6 - Walled city:          +180 guld!                                           |
+|    * Summen er 7 - Monastery:               0 guld!                                           |
+|    * Summen er 8 - Black cave:            -70 guld!                                           |
+|    * Summen er 9 - Huts in the mountain:  +60 guld!                                           |
+|    * Summen er 10 - The Werewall:         -80 guld!  ( EKSTRA TUR )                           |
+|    * Summen er 11 - The pit:              -50 guld!                                           |
+|    * Summen er 12 - Goldmine:            +650 guld!                                           |
+|_______________________________________________________________________________________________|

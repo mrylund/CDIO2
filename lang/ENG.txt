@@ -1,0 +1,23 @@
+AntalSpillere; How many players?:
+Spillere; Players in the game:
+Spiller; Player %1$d: %2$s [%3$d gold]
+SpillerTur; It is %s's turn.
+SpillerNavn; Name of player %d:
+SpillerSaldo; %1$s: %2$d gold!
+Vinder; %1$s has won the game with a total of %2$s gold!
+EnterSlaa; Press ENTER to throw:
+SpillerSlag; %1$s threw %2$s and lands on tile number %3$d
+NytTal; You have to write a number. Try again.
+MinMax; This game must have at least 1 player and max 10. Try again.
+NavneLaengde; Your name must be between 1 and 10 characters long, try again!
+Felt2; You landed on "Tower" and received 250 gold!
+Felt3; You landed on "Crater" and lost 100 gold!
+Felt4; You landed on "Palace Gates" and received 100 gold!
+Felt5; You landed on "Cold Desert" and lost 20 gold!
+Felt6; You landed on "Walled City" and received 180 gold!
+Felt7; You landed on "Monastery" and you get no gold!
+Felt8; You landed on "Black Cave" and lost 70 gold!
+Felt9; You landed on "Huts in the mountain" and received 60 gold!
+Felt10; You landed on "The Werewall" and lost 80 gold, but you will have another turn!
+Felt11; You landed on "The pit" and lost 50 gold!
+Felt12; You landed on "Goldmine" and received 650 gold!
