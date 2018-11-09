@@ -11,7 +11,8 @@ public class SpillerTest {
 
     @Test
     public void addSaldo() {
-        //sætter (-2) * den aktuelle saldo og tester om saldoen bliver >= 0
+        //sætter (-2) * den aktuelle saldo og tvinger saldoen til at gå i minus
+        //hvis vores metode virker, skal saldoen ALTID blive >= 0
         spiller.addSaldo(-2 * aktuelSaldo);
         System.out.println(spiller.getSaldo());
         assertTrue(spiller.getSaldo() >= 0);
