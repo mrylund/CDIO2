@@ -6,23 +6,10 @@ public class RaflebaegerTest {
     Raflebaeger rafle = new Raflebaeger();
 
     @Test
-    public void kast() {
-    }
-
-    @Test
-    public void sum() {
-    }
-
-    @Test
-    public void isEns() {
-
-    }
-
-    @Test
     public void terningeØjne() {
         //vælg hvor mange gange testen skal køre og angiv fejlprocenten
         final int ANTALTEST = 400000;
-        final int PROCENT = 4;
+        final int PROCENT = 3;
 
         //arrayet er én længere end antal øjne - den går fra 1 - antal øjne
         int hyppighed[] = new int[rafle.getØjne()+1];

@@ -32,6 +32,7 @@ public class Controller {
             //skriv.visSum(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
             skriv.resultat(spillerliste.getSpillere());
+
             if (spillerliste.getCurSpiller().isVinder()) {
                 skriv.nyLinje();
                 skriv.vinder(spillerliste.getCurSpiller());
