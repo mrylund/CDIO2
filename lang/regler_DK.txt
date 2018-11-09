@@ -4,7 +4,7 @@
 | 1. Der skal trykkes "ENTER" for at rulle med terningerne.                                     |
 | 2. Hver spiller starter med 1000 guld.                                                        |
 | 3. Spillerens navn kan indeholde bogstaver fra a-z eller tal.                                 |
-| 4. Spilleren skal op til 3000 point, for at vinde spillet.                                    |
+| 4. Spilleren skal op til 3000 guld, for at vinde spillet.                                    |
 | 5. Summen af terningerne afgør hvilket felt du lander på. Du kan lande mellem 2 og 12.        |
 |                                                                                               |
 | 6. Du kan nedenunder se en oversigt over hvad der sker med din saldo, ud fra hvad du slår:    |

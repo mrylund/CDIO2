@@ -105,6 +105,7 @@ public class Skriv {
     public void regler(){
         String file1 = "lang/regler_DK.txt"; //+ sprog.getLanguage() + ".txt";
         String file2 = "lang/regler_ENG.txt";
+        String file3 = "lang/regler_SJ.txt";
         String currentLine = "";
 
         rules = input.nextLine();
@@ -116,6 +117,7 @@ public class Skriv {
                     System.out.println(currentLine);
                     currentLine = reader.readLine();
                 }
+                nyLinje();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -129,6 +131,20 @@ public class Skriv {
                     System.out.println(currentLine);
                     currentLine = reader.readLine();
                 }
+                nyLinje();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }else if(rules.equalsIgnoreCase("Æ REGLER")){
+            try (BufferedReader reader = new BufferedReader(new FileReader(file3))) {
+                for(int i = 0; i < 26; i++){
+                    System.out.println(currentLine);
+                    currentLine = reader.readLine();
+                }
+                nyLinje();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
