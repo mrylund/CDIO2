@@ -52,7 +52,7 @@ public class Skriv {
         System.out.print("Vælg dansk eller engelsk [dk], [eng]: ");
         do {
             String input1 = input.nextLine();
-            if (input1.equalsIgnoreCase("dk") || input1.equalsIgnoreCase("eng")) {
+            if (input1.equalsIgnoreCase("dk") || input1.equalsIgnoreCase("eng") || input1.equalsIgnoreCase("sj")) {
                 language.setLanguage(input1);
                 success = true;
             } else {
@@ -78,7 +78,7 @@ public class Skriv {
             BufferedReader reader = new BufferedReader(new FileReader(filnavn));
             String currentLine = "";
 
-            for(int i = 0; i < 12; i++){
+            for(int i = 0; i < 13; i++){
                 System.out.println(currentLine);
                 currentLine = reader.readLine();
             }

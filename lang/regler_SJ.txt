@@ -4,7 +4,7 @@
 | 1. Tryk å æ "ENTER" knap å dit tastatur for't rulle meæ æ terninger.                          |
 | 2. Ålle spillere i æ spil start meæ 1000 guld                                                 |
 | 3. Æ spillers navn ka indehold bochstavæ, tal och ålle muliche mærkliche tegn.                |
-| 4. Æ Spiller ska op tæ 3000 guld for't tæv sine moejstandere, och taej æ trofæ.               |
+| 4. Æ spiller ska op tæ 3000 guld for't tæv sine moejstandere, och taej æ trofæ.               |
 | 5. Æ sum å æ terninger afgøer om do skaj a mæe guld elle haej guld.                           |
 |    Æ sum kan væeje imellm 2 och 12.                                                           |
 |                                                                                               |

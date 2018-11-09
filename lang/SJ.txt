@@ -1,0 +1,23 @@
+AntalSpillere; Hvor mang' spillere ska væe meæ?:
+Spillere; Spilllere i æ spil:
+Spiller; Spiller %1$d: %2$s [%3$d guld]
+SpillerTur; Dé'r no %s's tur.
+SpillerNavn; Navn å spiller %d:
+SpillerSaldo; %1$s: %2$d guld!
+Vinder; %1$s haej vund't spillet mæe %2$s guld!
+EnterSlaa; Tryk å ENTER for't slå:
+SpillerSlag; %1$s slog %2$s och lander å felt %3$d
+NytTal; Do ska skriv' et tal kammerat. Æ gi'er æt dét dér.
+MinMax; Der ka mindst væ'r 1 spiller och maks 10. Prøv igen kammerat.
+NavneLaengde; Dit navn ska væ'r mellm 1 och 10 tegn. Prøv igen kammerat.
+Felt2; Do land't å felt Tower och fæe 250 guld!
+Felt3; Do land't å felt Crater och mister 100 guld!
+Felt4; Do land't å felt Palace Gates och fæe 100 guld!
+Felt5; Do land't å felt Cold Desert och mister 20 guld!
+Felt6; Do land't å felt Walled City och fæe 180 guld!
+Felt7; Do land't å felt Monastery och fæe ingen guld!
+Felt8; Do land't å felt Black Cave och mister 70 guld!
+Felt9; Do land't å felt Huts in the mountain och fæe 60 guld!
+Felt10; Do land't å felt The Werewall och mister 80 guld, men do fæe jén ekstra tur kammerat!
+Felt11; Do land't å felt The pit och mister 50 guld!
+Felt12; Do land't å felt Goldmine och fæe 650 guld! Tiløch mæe dét!
