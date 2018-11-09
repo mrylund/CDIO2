@@ -6,11 +6,13 @@ public class SpillerTest {
 
     Spiller spiller = new Spiller("testNavn");
 
-    int n = spiller.getSaldo();
+    //får den aktuelle værdi for saldoen
+    int aktuelSaldo = spiller.getSaldo();
 
     @Test
     public void addSaldo() {
-        spiller.addSaldo(-2 * n);
+        //sætter (-2) * den aktuelle saldo og tester om saldoen bliver >= 0
+        spiller.addSaldo(-2 * aktuelSaldo);
         System.out.println(spiller.getSaldo());
         assertTrue(spiller.getSaldo() >= 0);
     }
