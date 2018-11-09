@@ -43,6 +43,7 @@ public class Controller {
             } else {
                 spillerliste.nextSpiller();
             }
+
             skriv.streg();
             skriv.nyLinje();
         }
