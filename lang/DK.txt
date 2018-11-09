@@ -1,5 +1,4 @@
 AntalSpillere; Hvor mange spillere er I?:
-DuSlogTotal; Du lander på felt: %s
 Spillere; Spillere i dette spil:
 Spiller; Spiller %1$d: %2$s [%3$d guld]
 SpillerTur; Det er nu %s's tur.

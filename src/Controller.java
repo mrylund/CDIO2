@@ -1,7 +1,6 @@
 public class Controller {
     private int spillere;
     private Saldo saldo;
-    private Spiller spiller;
     private SpillerListe spillerliste;
     private Raflebaeger rafle;
     private Skriv skriv;
@@ -30,7 +29,6 @@ public class Controller {
             rafle.kast();
             skriv.nyLinje();
             skriv.tekst(spillerliste.getCurSpiller(),rafle.toString(rafle.getTerninger()), rafle.sum());
-            //skriv.visSum(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
             skriv.resultat(spillerliste.getSpillere());
 

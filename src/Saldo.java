@@ -1,7 +1,4 @@
 public class Saldo {
-
-    private Raflebaeger rafle;
-    private SpillerListe spillerliste = new SpillerListe();
     private static final int SLUTPENGE = 3000;
 
 

@@ -5,12 +5,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Skriv {
-
-    Saldo saldo = new Saldo();
-    Raflebaeger bæger = new Raflebaeger();
     SpillerListe spillerliste = new SpillerListe();
     private String rules;
-    private String intro;
 
     public Scanner input = new Scanner(System.in);
 
@@ -31,10 +27,6 @@ public class Skriv {
 
     public void streg(){
         System.out.println("_____________________________");
-    }
-
-    public void visSum(int felt) {
-        System.out.println(String.format(language.get("DuSlogTotal"), felt));
     }
 
     public void hvemSpiller(Spiller[] navne) {

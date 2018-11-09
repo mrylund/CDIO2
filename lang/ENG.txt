@@ -1,22 +1,23 @@
 AntalSpillere; How many players?:
-DuSlogTotal; Total amount of eyes:
 Spillere; Players in the game:
-Spiller; Player %1$d: %2$s
+Spiller; Player %1$d: %2$s [%3$d gold]
 SpillerTur; It is %s's turn.
 SpillerNavn; Name of player %d:
 SpillerSaldo; %1$s: %2$d gold!
+Vinder; %1$s has won the game with a total of %2$s gold!
 EnterSlaa; Press ENTER to throw:
-Vinder; %1$s has won the game with a total of %2$s points!
+SpillerSlag; %1$s threw %2$s and lands on tile number %3$d
 NytTal; You have to write a number. Try again.
 MinMax; This game must have at least 1 player and max 10. Try again.
-Felt2; Du landte på feltet Tower og får 250 point!
-Felt3; Du landte på feltet Crater og mister 100 point!
-Felt4; Du landte på feltet Palace Gates og får 100 point!
-Felt5; Du landte på feltet Cold Desert og mister 20 point!
-Felt6; Du landte på feltet Walled City og får 180 point!
-Felt7; Du landte på feltet Monastery og får ingen point!
-Felt8; Du landte på feltet Black Cave og mister 70 point!
-Felt9; Du landte på feltet Huts in the mountain og får 60 point!
-Felt10; Du landte på feltet The Werewall og mister 80 point, men du får en ekstra tur!
-Felt11; Du landte på feltet The pit og mister 50 point!
-Felt12; Du landte på feltet Goldmine og får 650 point!
+NavneLaengde; Your name must be between 1 and 10 characters long, try again!
+Felt2; You landed on "Tower" and received 250 gold!
+Felt3; You landed on "Crater" and lost 100 gold!
+Felt4; You landed on "Palace Gates" and received 100 gold!
+Felt5; You landed on "Cold Desert" and lost 20 gold!
+Felt6; You landed on "Walled City" and received 180 gold!
+Felt7; You landed on "Monastery" and you get no gold!
+Felt8; You landed on "Black Cave" and lost 70 gold!
+Felt9; You landed on "Huts in the mountain" and received 60 gold!
+Felt10; You landed on "The Werewall" and lost 80 gold, but you will have another turn!
+Felt11; You landed on "The pit" and lost 50 gold!
+Felt12; You landed on "Goldmine" and received 650 gold!
