@@ -5,12 +5,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Skriv {
-
-    Saldo saldo = new Saldo();
-    Raflebaeger bæger = new Raflebaeger();
     SpillerListe spillerliste = new SpillerListe();
     private String rules;
-    private String intro;
 
     public Scanner input = new Scanner(System.in);
 
@@ -33,14 +29,10 @@ public class Skriv {
         System.out.println("_____________________________");
     }
 
-    public void visSum(int felt) {
-        System.out.println(String.format(language.get("DuSlogTotal"), felt));
-    }
-
     public void hvemSpiller(Spiller[] navne) {
         System.out.println(language.get("Spillere"));
         for(int i = 0; i < navne.length; i++) {
-            System.out.println(String.format(language.get("Spiller"), i+1, navne[i].getNavn()));
+            System.out.println(String.format(language.get("Spiller"), i+1, navne[i].getNavn(), navne[i].getSaldo()));
         }
     }
 

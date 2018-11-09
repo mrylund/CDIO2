@@ -18,6 +18,7 @@ public class SpillerListe {
                 success = false;
                 System.out.print(String.format(language.get("SpillerNavn"), (i + 1)));
                 temp = input.nextLine();
+                //tjekker om navnet er mellem 2 to 10 tegn
                 if (temp.length() < 11 && temp.length() > 1) {
                     spillere[i] = new Spiller(temp);
                     success = true;
@@ -33,7 +34,7 @@ public class SpillerListe {
     }
 
     public void nextSpiller() {
-        if(spillerTur == spillere.length-1) { //navne.length måske +1 elle -1. Kommer an på hvordan vi index'ere spillerne
+        if(spillerTur == spillere.length-1) {
             spillerTur = 0;
         } else {
             spillerTur++;

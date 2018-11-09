@@ -4,9 +4,6 @@ public class Spiller {
     private final int STARTSALDO = 1000;
     private int saldo;
     private String navn;
-    private static int counter = 0; //tæller op hver gang en spiller bliver lavet
-    private int spillerTur = 0;
-    private Scanner input = new Scanner(System.in);
 
     public Spiller(String Navn) {
         saldo = STARTSALDO;
@@ -21,8 +18,10 @@ public class Spiller {
         return this.saldo;
     }
 
-    public void setSaldo(int nySaldo) {
-        saldo = nySaldo;
+    public void setSaldo(int saldo) {
+        if (saldo >= 0) {
+            this.saldo = saldo;
+        }
     }
 
     public boolean isVinder() {
