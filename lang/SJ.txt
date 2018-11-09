@@ -20,4 +20,4 @@ Felt8; Do land't å felt Black Cave och mister 70 guld!
 Felt9; Do land't å felt Huts in the mountain och fæe 60 guld!
 Felt10; Do land't å felt The Werewall och mister 80 guld, men do fæe jén ekstra tur kammerat!
 Felt11; Do land't å felt The pit och mister 50 guld!
-Felt12; Do land't å felt Goldmine och fæe 650 guld! Tiløch mæe dét!
+Felt12; Do land't å felt Goldmine och fæe 650 guld! Teløch mæe dét!
