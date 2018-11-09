@@ -28,6 +28,7 @@ public class Controller {
             skriv.trykEnter();
             skriv.streg();
             rafle.kast();
+            skriv.nyLinje();
             skriv.tekst(spillerliste.getCurSpiller(),rafle.toString(rafle.getTerninger()), rafle.sum());
             //skriv.visSum(rafle.sum());
             saldo.guld(spillerliste.getCurSpiller(), rafle.sum());
